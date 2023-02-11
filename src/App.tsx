@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import {Country} from "./Country";
 
+
 export type BanknotsType = 'Dollars'| 'RUBLS'|'All'// создадим типы для banknotes -он может быть 'Dollars', 'RUBLS' или 'All'
 export type MoneyType = {
     banknotes: BanknotsType
